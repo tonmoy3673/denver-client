@@ -1,5 +1,12 @@
+import HeroSection from "./HeroSection";
+
 const Home = () => {
-  return <div className="text-center">This is Home page</div>;
+  return (
+    <div>
+      <HeroSection />
+    </div>
+  );
+
 };
 
 export default Home;

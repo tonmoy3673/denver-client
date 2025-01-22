@@ -4,7 +4,7 @@ import Header from "../../Shared/Header";
 
 const Main = () => {
   return (
-    <div className="max-w-[1728px]">
+    <div className="w-full">
       <Header />
       <Outlet />
       <Footer />

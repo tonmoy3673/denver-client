@@ -5,7 +5,7 @@ const Header = () => {
     <div className="container mx-auto text-base lg:text-lg py-6 md:py-8 lg:py-12 font-libre font-semibold">
       <div className="flex items-center justify-between">
         {/* ============= Logo ========== */}
-        <Link to="/">
+        <Link to="/home">
           <img
             src="/src/assets/images/Logo.png"
             alt="logo"

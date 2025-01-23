@@ -6,7 +6,6 @@ const Home = () => {
       <HeroSection />
     </div>
   );
-
 };
 
 export default Home;

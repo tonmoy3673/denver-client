@@ -14,7 +14,7 @@ const Community = () => {
           </div>
           <div className="h-[400px] flex items-center lg:pl-[120px] relative z-[9]">
             <div className="">
-              <h2 className="text-start font-libre text-xl md:text-2xl lg:text-[48px]  text-white lg:leading-[140%] font-bold">
+              <h2 className="text-start font-libre text-xl md:text-2xl lg:text-[35px]  text-white lg:leading-[140%] font-bold">
                 What are you waiting for? <br />
                 Sign up and join the rest of <br /> the Colorado dog community
               </h2>

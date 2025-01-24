@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        libre:["Libre Franklin", "serif"]
+        libre:["Libre Franklin", "serif"],
+        kalam:[ "Kalam", 'serif']
       }
     },
   },

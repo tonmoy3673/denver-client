@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="">
@@ -40,7 +42,32 @@ const Footer = () => {
       </div>
 
       {/* ============== bottom footer ============= */}
-      <div className="bg-[#35424B] h-[587px]"></div>
+      <div className="bg-[#35424B] h-[587px]">
+        {/* ========= Lower Footer Grid ============= */}
+        <div className="pt-20 lg:pt-36 ">
+          {/* ========== Logo Columns =========== */}
+          <div className="flex flex-col gap-y-6">
+            <img
+              className="w-[180px] h-[50px]"
+              src="/src/assets/icons/DDR Logo.svg"
+              alt="logo"
+            />
+            <p className="text-base text-white">
+              Empowering Denver's dog lovers with the ultimate guide to
+              dog-friendly experiences: Denver Dog Recon is your educational
+              platform to stay in-the-know of all dog approved amenities in
+              Colorado.
+            </p>
+          </div>
+          {/* ============ Pages Columns ========== */}
+          <div>
+            <h2>Pages</h2>
+            <div>
+              <Link to="/home">Home</Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };
